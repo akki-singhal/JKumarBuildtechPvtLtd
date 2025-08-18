@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thermal Insulation | JKumar Buildtech</title>
+  <link rel="icon" href="./images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+          body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f7fc;
+        color: #333;
+      }
+
+      .service-banner {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), 
+              url('./images/waterproofing-banner.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+
+      .service-banner h1 {
+      color: white;
+      font-size: 2.5rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px 40px;
+      border-radius: 8px;
+      }
+
+      .service-content {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 20px;
+      background-color: #f4f7fc;
+      }
+
+      .service-description {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 40px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      }
+
+      .service-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-top: 30px;
+      }
+
+      .service-gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      }
+
+      .service-gallery img:hover {
+      transform: scale(1.03);
+      }
+
+      .back-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 14px 24px;
+      background-color: #f05d08;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: background-color 0.3s ease, transform 0.2s;
+      z-index: 999;
+      }
+
+      .back-btn:hover {
+      background-color: #f0f1f5;
+      color: rgb(234, 129, 10);
+      transform: translateY(-2px);
+      }
+
+      .service-switcher {
+        margin: 20px auto;
+        text-align: center;
+        }
+
+        .service-switcher select {
+        padding: 10px 16px;
+        font-size: 1rem;
+        border: 2px solid #f05d08;
+        border-radius: 8px;
+        background-color: #fff;
+        color: #333;
+        font-weight: 600;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: border-color 0.3s ease;
+        }
+
+        .service-switcher select:hover,
+        .service-switcher select:focus {
+        border-color: #d44c00;
+        }
+
+
+
+      @media (max-width: 600px) {
+        .service-banner h1 {
+        font-size: 1.8rem;
+        padding: 16px;
+        }
+
+        .service-gallery img {
+        height: 180px;
+        }
+      }
+  </style>
+</head>
+<body>
+
+    <header id="navbar">    
+        <div class="container">
+            <a href="index.html">
+                <img src="./images/COMPANY LOGO.png" alt="Company Logo" class="company-logo">
+            </a>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- <p class="company-name">JKumar Buildtech Pvt. Ltd.</p> -->
+            <!-- Hamburger Icon -->
+
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <!-- WhatsApp Button -->
+                    <button class="contact-us-button cta-button" onclick="bookService()">Contact Us</button>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- 🔽 Minimal Service Switcher Dropdown -->
+    <div class="service-switcher">
+    <select onchange="location = this.value;">
+        <option disabled selected>Switch Service</option>
+        <option value="Anti-Carbonation-Coating.html">Anti Carbonation Coating</option>
+        <option value="Water-Proofing.html">Water Proofing</option>
+        <option value="Structural-Repair.html">Structural Repair</option>
+        <option value="Water-Repellant-&-Anti-Graffiti.html">Water Repellant & Anti Graffiti</option>
+        <option value="Thermal-Insulation.html">Thermal Insulation</option>
+        <option value="Expansion-Joints.html">Expansion Joints</option>
+        <option value="Bearing-Replacement.html">Bearing Replacement</option>
+        <option value="Dam-Tunnel-Repair.html">Dam & Tunnel Repair</option>
+        <option value="mine.html">Mines Solutions</option>
+        <option value="Controlled-Dismantling.html">Controlled Dismantling</option>
+        <option value="Hydro-Demolition.html">Hydro Demolition</option>
+    </select>
+    </div>        
+
+    <!-- contact us Booking Modal -->
+    <div id="bookingModal" class="modal" >
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Free to CONTACT US</h2>
+            <div class="form-wrapper">
+                <form id="bookingForm">
+                    <div id="bookingForm" class="form-appear">
+                        <div class="form-group">
+                            <h3>📱 Call Us</h3>
+                            <p><strong>Piyush Singhal:</strong> <a href="tel:+918860303034" style="color: #333; text-decoration: none;">+91 8860303034</a></p>
+                            <p><strong>Manu Vaibhav:</strong> <a href="tel:+919953760804" style="color: #333; text-decoration: none;">+91 9953760804</a></p>
+                        </div>
+
+                        <div class="form-group">
+                            <h3>💬 WhatsApp</h3>
+                            <p><strong>Piyush Singhal:</strong> <a href="https://wa.me/918860303034?text=Hello%2C%20I%20am%20interested%20in%20your%20waterproofing%20services." target="_blank" style="color: #25D366; text-decoration: none;">Chat Now</a></p>
+                            <p><strong>Manu Vaibhav:</strong> <a href="https://wa.me/919953760804?text=Hello%2C%20I%20am%20interested%20in%20your%20waterproofing%20services." target="_blank" style="color: #25D366; text-decoration: none;">Chat Now</a></p>
+                        </div>
+
+                        <div class="form-group">
+                            <h3>📧 Email</h3>
+                            <p><strong>Piyush Singhal:</strong> <a href="mailto:piyush.singhal30@gmail.com" style="color: #333; text-decoration: none;">piyush.singhal30@gmail.com</a></p>
+                            <p><strong>Manu Vaibhav:</strong> <a href="mailto:jkumarbuildtech@gmail.com" style="color: #333; text-decoration: none;">jkumarbuildtech@gmail.com</a></p>
+                        </div>
+
+
+                        <div class="form-group">
+                            <h3>📍 Office Location</h3>
+                            <p><b>JKUMAR BUILDTECH PRIVATE LIMITED</b> G-70, Lower Ground Floor, Office No. 001, Sector 63, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301
+                            <br>GSTIN/UIN: 09AADCJ9672K1ZV
+                            <br>State Name: Uttar Pradesh, Code : 09</p>
+                            <a href="https://maps.google.com/?q=28.618757,77.389343" target="_blank" style="color: #25D366; text-decoration: none;">
+                            📌 View on Google Maps</a>
+                        </div>
+
+                    </div>
+                    <input type="submit" value="Close" class="submit-button" onclick="closeModal()">
+                </form>
+    
+            </div>
+        </div>
+    </div>
+
+    <section class="service-banner">
+      <h1>Thermal Insulation</h1>
+    </section>
+
+    <section class="service-content">
+      <div class="service-description">
+          <p>
+          Our thermal insulation solutions for roofs and façades reduce heat transfer, enhance indoor comfort, and lower energy consumption in buildings.
+          </p>
+          <p>
+          We use reflective coatings, insulation boards, and external cladding systems to provide efficient temperature control across seasons, especially in tropical climates.
+          </p>
+
+      </div>
+
+      <div class="service-gallery">
+        <img src="./images/service images/thermal-1.jpg" alt="Thermal Insulation Image 1">
+        <img src="./images/service images/thermal-2.webp" alt="Thermal Insulation Image 2">
+        <img src="./images/service images/thermal-3.jpg" alt="Thermal Insulation Image 3">
+      </div>
+
+      <a href="./index.html#services" class="back-btn">← Back to Services</a>
+    </section>
+
+        <script src="script.js"></script>
+    <script>
+        // Scroll to top on page load
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
+
+</body>
+</html>

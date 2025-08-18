@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <title>JKumar Buildtech Pvt. Ltd.</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="navbar">
+       
+        <div class="container">
+            <a href="index.html">
+                <img src="./images/COMPANY LOGO.png" alt="Company Logo" class="company-logo">
+            </a>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- <p class="company-name">JKumar Buildtech Pvt. Ltd.</p> -->
+            <!-- Hamburger Icon -->
+    
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <!-- WhatsApp Button -->
+                    <button class="contact-us-button cta-button" onclick="bookService()">Contact Us</button>
+
+                </ul>
+            </nav>
+        </div>
+    </header> 
+            
+    <!-- Home Section -->
+    <section id="home">
+    <div class="home-container">
+        <div class="home-left">
+        <h1>Expert Structural Waterproofing & Repair Solutions</h1>
+        <p>
+            Protecting your property with advanced waterproofing technology and 25+ years of expertise in Pan India.
+        </p>
+        <a href="#contact" class="home-btn" onclick="bookService()">Contact Us</a>
+
+        <div class="home-features">
+            <div class="feature-box">
+            <i class="fas fa-user-shield"></i>
+            <div>
+                <h4>25+ Years</h4>
+                <p>Trusted waterproofing experts</p>
+            </div>
+            </div>
+            <div class="feature-box">
+            <i class="fas fa-check-circle"></i>
+            <div>
+                <h4>150+ Projects</h4>
+                <p>Successfully completed</p>
+            </div>
+            </div>
+            <div class="feature-box">
+            <i class="fas fa-thumbs-up"></i>
+            <div>
+                <h4>100% Satisfaction</h4>
+                <p>Guaranteed quality work</p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="home-right">
+        <img src="./images/Home-Image-desktop.jpg" alt="Award Ceremony" />
+        <div class="caption">
+            🏆 Industry Recognition & Professional Excellence<br />
+            <small>Award ceremony showcasing our commitment to quality waterproofing solutions</small>
+        </div>
+        </div>
+    </div>
+    </section>
+        
+    <!-- Service Overview Section --> 
+    <section id="services">
+        <h2>Our Services</h2>
+            <div class="service-slider">
+                <!-- Service cards... -->
+                 <!-- 1 -->
+                <div class="service-card" onclick="window.location.href='Anti-Carbonation-Coating.html'">
+                    <img src="./images/Anti-Carbonation-Coating.png" alt="image loading">
+                    <h5>Anti Carbonation Coating</h5>
+                </div>
+
+                <!-- 2 -->
+                <div class="service-card" onclick="window.location.href='Water-Proofing.html'">
+                    <img src="./images/waterproofing-services.jpg" alt="image loading">
+                    <h5>Water Proofing</h5>
+                </div>
+
+                <!-- 3 -->
+                <div class="service-card" onclick="window.location.href='Structural-Repair.html'">
+                    <img src="./images/Structural-Repair.png" alt="image loading">
+                    <h5>Structural Repair/ Strengthening/ Rehabilitation/ Jacketing</h5>
+                </div>
+
+                <!-- 4 -->
+                <div class="service-card" onclick="window.location.href='Water-Repellant-&-Anti-Graffiti.html'">
+                    <img src="./images/Water-Repellant.png" alt="image loading">
+                    <h5>Water Repellant & Anti Graffiti Treatment</h5>
+                </div>
+
+                <!-- 5 -->
+                <div class="service-card" onclick="window.location.href='Thermal-Insulation.html'">
+                    <img src="./images/Thermal-Insulation.png" alt="image loading">
+                    <h5> Thermal Insulation (Roof & External Facade)</h5>
+                </div>
+
+                <!-- 6 -->
+                <div class="service-card" onclick="window.location.href='Expansion-Joints.html'">
+                    <img src="./images/expansion-joint.png" alt="image loading">
+                    <h5>Expansion Joints, Control Joints & Fire barriers</h5>
+                </div>
+
+                <!-- 7 -->
+                <div class="service-card" onclick="window.location.href='Bearing-Replacement.html'">
+                    <img src="./images/Bearing-Replacement.png" alt="image loading">
+                    <h5>Bearing Replacement and Lifting of Span/ Girders</h5>
+                </div>
+
+                <!-- 8 -->
+                <div class="service-card" onclick="window.location.href='Dam-Tunnel-Repair.html'">
+                    <img src="./images/dam.png" alt="image loading">
+                    <h5>Dam & Tunnel Repair.</h5>
+                </div>
+
+                <!-- 9 -->
+                 <div class="service-card" onclick="window.location.href='mine.html'">
+                    <img src="./images/mine.png" alt="image loading">
+                    <h5>Specialized Solutions for mines</h5>
+                </div>
+
+                <!-- 10 -->
+                <div class="service-card"  onclick="window.location.href='Controlled-Dismantling.html'">
+                    <img src="./images/dismantling.png" alt="image loading">
+                    <h5>Controlled Dismantling</h5>
+                </div>
+
+                <!-- 11 -->
+                <div class="service-card"  onclick="window.location.href='Hydro-Demolition.html'">
+                    <img src="./images/Hydro-demolition.png" alt="image loading">
+                    <h5>Hydro Demolition</h5>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Hero Section booking section-->
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Reliable Waterproofing Services</h1>
+            <p>Waterproof. Worry-Proof. Future-Proof, because protection today is security for tomorrow</p>
+            <button onclick="bookService()">Book a Service</button>
+        </div>
+    </section>  
+
+    <!-- Client Logos Section -->
+    <section class="clients-section">
+        <h2>Our Prestigious Clients</h2>
+
+        <!-- Row 1 -->
+        <div class="client-row left-scroll">
+            <div class="logos">
+            <img src="images/logo1.png" alt="Client 1">
+            <img src="images/logo2.png" alt="Client 2">
+            <img src="images/logo3.png" alt="Client 3">
+            <img src="images/logo4.png" alt="Client 4">
+            <img src="images/logo5.png" alt="Client 5">
+            <img src="images/logo6.png" alt="Client 6">
+            </div>
+        </div>
+
+
+        <!-- Row 2 -->
+        <div class="client-row right-scroll">
+            <div class="logos">
+            <img src="images/logo7.png" alt="Client 7">
+            <img src="images/logo8.png" alt="Client 8">
+            <img src="images/logo9.png" alt="Client 9">
+            <img src="images/logo10.png" alt="Client 10">
+            <img src="images/logo11.png" alt="Client 11">
+            <img src="images/logo12.png" alt="Client 12">
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="client-row left-scroll">
+            <div class="logos">
+            <img src="images/logo13.png" alt="Client 13">
+            <img src="images/logo14.png" alt="Client 14">
+            <img src="images/logo15.png" alt="Client 15">
+            <img src="images/logo16.png" alt="Client 16">
+            <img src="images/logo17.png" alt="Client 17">
+            <img src="images/logo18.png" alt="Client 18">
+            </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="client-row right-scroll">
+            <div class="logos">
+            <img src="images/logo19.png" alt="Client 19">
+            <img src="images/logo20.png" alt="Client 20">
+            <img src="images/logo21.png" alt="Client 21">
+            <img src="images/logo22.png" alt="Client 22">
+            <img src="images/logo23.png" alt="Client 23">
+            <img src="images/logo24.png" alt="Client 24">
+            </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="client-row left-scroll">
+            <div class="logos">
+            <img src="images/logo25.png" alt="Client 25">
+            <img src="images/logo26.png" alt="Client 26">
+            <img src="images/logo27.png" alt="Client 27">
+            <img src="images/logo28.png" alt="Client 28">
+            <img src="images/logo29.png" alt="Client 29">
+            <img src="images/logo30.png" alt="Client 30">
+            </div>
+        </div>
+
+        <!-- Row 6 -->
+        <div class="client-row right-scroll">
+            <div class="logos">
+            <img src="images/logo31.png" alt="Client 31">
+            <img src="images/logo32.png" alt="Client 32">
+            <img src="images/logo33.png" alt="Client 33">
+            <img src="images/logo34.png" alt="Client 34">
+            <img src="images/logo35.png" alt="Client 35">
+            <img src="images/logo36.png" alt="Client 36">
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review-slider">
+        
+        <div class="review active">
+        <img src="images/customers/1.jpg" alt="Ashutosh" class="review-photo">
+        <p>"Outstanding waterproofing work! My basement is completely dry even during heavy rains."</p>
+        <h4>- Ashutosh <br>RCM</h4>
+        <H5>JATAN CONSTRUCTION PVT. LTD.</H5>
+        </div>
+
+        <div class="review">
+        <img src="images/customers/2.jpg" alt="Shishir" class="review-photo">
+        <p>"Very professional team. They fixed the terrace leakage within a day. Highly recommended!"</p>
+        <h4>- Shishir <br>PROJECT MANAGER</h4>
+        <H5>OMP GABON CENTRAL AFRICA</H5>
+        </div>
+
+        <div class="review">
+        <img src="images/customers/3.jpg" alt="Sanjay Gupta" class="review-photo">
+        <p>"Great experience! Their chemical coating has made a big difference. No more damp walls."</p>
+        <h4>- Sanjay Gupta <br>PRESIDENT CONTRACTS</h4>
+        <h5>OMAXE LTD.</h5>
+        </div>
+
+
+    </div>
+    </section>
+
+    
+    <!-- About Us Section -->
+    <section id="about-us">
+        <div class="about-intro">
+            <h2>About JKumar Build Tech</h2>
+            <p>
+                At <strong>JKumar Build Tech</strong>, we are dedicated to delivering industry-leading waterproofing and structural protection services across residential, commercial, and industrial sectors. Our focus is on durability, innovation, and complete client satisfaction.
+            </p>
+            <p>
+                We combine modern application methods, certified products, and hands-on expertise to protect your structures from the ground up. From terraces to foundations, we offer reliable, leak-proof solutions designed to last.
+            </p>
+        </div>
+        
+        <!-- Chairman Section -->
+        <div class="chairman-section">
+            <div class="chairman-image">
+                <img src="images/chairman.jpg" alt="Chairman Photo">
+            </div>
+            <div class="chairman-info">
+                <h3>Mr. Jugnder Kumar</h3>
+                <p class="role">Chairman</p>
+                <p class="bio">
+                    With over 40 years of experience in the civil construction industry, Mr. Jugnder Kumar has led major infrastructure and development projects across India. As Chairman of JKumar Build Tech, his leadership continues to inspire excellence, innovation, and uncompromising quality standards.
+                </p>
+                <blockquote>
+                    “Leadership means setting the standard — and never compromising on it.”
+                </blockquote>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Director 1 -->
+        <div class="director-row">
+            <div class="director-image">
+                <img src="images/piyush.jpg" alt="Piyush Singhal">
+            </div>
+            <div class="director-info">
+                <h3>Piyush Singhal</h3>
+                <p class="role">Director & Co-Founder</p>
+                <p class="bio">
+                    A dynamic professional with over 26 years of experience Construction Chemical Industrial sectors, He excels in strategic planning and administration, financial, marketing, manufacturing activities. Presently positioned as Technical Director, He is a keen planner, strategist and implementer with demonstrated abilities in devising administrative and financial activities, thereby accelerating the business growth. At the same time, his experience in service industry gives him a natural forte in administration and Management. Undoubtedly, his main focus has been to achieve continuous growth of the company and looking out for new avenues for betterment or branching out to generate more business.
+                </p>
+                <blockquote>
+                    “We don’t just stop leaks — we deliver long-term structural confidence.”
+                </blockquote>
+            </div>
+        </div>
+        
+        <!-- Director 2 -->
+        <div class="director-row reverse">
+            <div class="director-image">
+                <img src="images/manu.jpg" alt="Manu Vaibhav">
+            </div>
+            <div class="director-info">
+                <h3>Manu Vaibhav</h3>
+                <p class="role">Director & Co-Founder</p>
+                <p class="bio">
+                    Manu Vaibhav brings youthful dynamism, innovative ideas and project management skills which have ensured the company's march towards accelerated growth. All projects are a reflection of his rich and varied experience, in-depth understanding, global exposure and translation of cutting edge technology. He sets very high and demanding standards and ensures his team follows the group's vision and mission statement to the core.
+                </p>
+                <blockquote>
+                    “Our foundation is built on quality, commitment, and client trust.”
+                </blockquote>
+            </div>
+        </div>
+        
+        <div class="about-cards">
+            <div class="about-card">
+                <div class="icon-circle"><i class="fas fa-check-circle"></i></div>
+                <h2>150+</h2>
+                <h4>Projects Completed</h4>
+                <p>Successfully delivered across NCR</p>
+            </div>
+            
+            <div class="about-card">
+                <div class="icon-circle"><i class="fas fa-user-tie"></i></div>
+                <h2>25+</h2>
+                <h4>Years Experience</h4>
+                <p>Trusted expertise in waterproofing</p>
+            </div>
+            
+            <div class="about-card">
+                <div class="icon-circle"><i class="fas fa-clock"></i></div>
+                <h2>24/7</h2>
+                <h4>Support Available</h4>
+                <p>Emergency response service</p>
+            </div>
+            
+            <div class="about-card">
+                <div class="icon-circle"><i class="fas fa-shield-alt"></i></div>
+                <h2>100%</h2>
+                <h4>Quality Guarantee</h4>
+                <p>Satisfaction guaranteed</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Our Blog</h2>
+        <h5>Why Waterproofing?</h5>
+        <h6>Stay updated with the latest tips and insights on waterproofing, grouting, and building maintenance.</h6>
+        
+        <!-- blog-1 -->
+        <article class="blog-post">
+            <h3>Why Waterproofing is Crucial for Every Building</h3>
+            <p class="blog-preview">Understand the importance of waterproofing in protecting your building's structural integrity.</p>
+            <p class="blog-full-content">
+                Waterproofing prevents water ingress, which can lead to serious damage such as mold growth, concrete decay, and foundation weakening. At JKumar Build Tech, we specialize in providing long-lasting waterproofing solutions to secure your structures from top to bottom.
+            </p>
+            <a href="#" class="read-more" onclick="toggleBlogContent(event)">Read More</a>
+        </article>
+        
+        <!-- blog-2 -->
+        <article class="blog-post">
+            <h3>Common Signs Your Home Needs Waterproofing</h3>
+            <p class="blog-preview">Spot the warning signs of water damage before it becomes a costly repair.</p>
+            <p class="blog-full-content">
+                Damp walls, peeling paint, efflorescence, and a musty smell are all signs that your property may need waterproofing. JKumar Build Tech offers expert inspections and affordable solutions to fix these issues at the root.
+            </p>
+            <a href="#" class="read-more" onclick="toggleBlogContent(event)">Read More</a>
+        </article>
+        
+        <!-- blog-3 -->
+        <article class="blog-post">
+            <h3>Grouting Explained: Why It's More Than Just Filling Gaps</h3>
+            <p class="blog-preview">Discover how grouting strengthens and protects structures from long-term damage.</p>
+            <p class="blog-full-content">
+                Grouting fills cracks and voids in concrete and masonry, enhancing structural stability and preventing water seepage. At JKumar Build Tech, we use high-performance grouts to ensure long-term protection and durability.
+            </p>
+            <a href="#" class="read-more" onclick="toggleBlogContent(event)">Read More</a>
+        </article>
+        
+        <!-- blog-4 -->
+        <article class="blog-post">
+            <h3>Terrace Waterproofing: Protect Your Roof from Monsoon Damage</h3>
+            <p class="blog-preview">Prevent leakage and structural damage with professional terrace waterproofing services.</p>
+            <p class="blog-full-content">
+                Terrace areas are most exposed to rainwater and UV rays. Without proper waterproofing, cracks and seepage become inevitable. JKumar Build Tech provides advanced membrane and coating systems to safeguard your roof year-round.
+            </p>
+            <a href="#" class="read-more" onclick="toggleBlogContent(event)">Read More</a>
+        </article>
+        
+        <!-- blog-5 -->
+        <article class="blog-post">
+            <h3>Bathroom & Basement Leak Solutions You Can Trust</h3>
+            <p class="blog-preview">Stop internal water leaks with effective, tested waterproofing techniques.</p>
+            <p class="blog-full-content">
+                Water leaks in wet areas like bathrooms and basements are common but can be permanently fixed. Our experts at JKumar Build Tech use injection grouting, PU sealants, and internal membrane coatings to solve even the toughest leak issues.
+            </p>
+            <a href="#" class="read-more" onclick="toggleBlogContent(event)">Read More</a>
+        </article>
+    </section>
+    
+    <!-- Thank You Section -->
+    <section id="thank-you" class="thank-you">
+        <div class="container">
+            <h2>Thank You for Visiting Our Website!</h2>
+            <p>We appreciate your time and interest in our services. If you have any questions or need further assistance, feel free to contact us. We look forward to serving you!</p>
+            <button onclick="bookService()" class="cta-button">Contact Us</button>
+        </div>
+    </section>
+         
+    <!-- Footer -->
+    <footer class="unified-footer">
+        <div class="footer-container">
+            
+            <!-- CONTACT CARDS (TOP ROW) -->
+            <div class="footer-cards">
+            <div class="footer-card">
+                <div class="icon-circle blue"><i class="fas fa-phone-alt"></i></div>
+                <h3>Call Us</h3>
+                <p>Piyush Singhal<br><a href="tel:+918860303034">+91 8860303034</a></p>
+                <p>Manu Vaibhav<br><a href="tel:+919953760804">+91 9953760804</a></p>
+            </div>
+
+            <div class="footer-card">
+                <div class="icon-circle red"><i class="fas fa-envelope"></i></div>
+                <h3>Email Us</h3>
+                <p>Piyush: <a href="mailto:piyush.singhal30@gmail.com">piyush.singhal30@gmail.com</a></p>
+                <p>Manu Vaibhav: <a href="mailto:jkumarbuildtech@gmail.com">jkumarbuildtech@gmail.com</a></p>
+            </div>
+
+            <div class="footer-card">
+                <div class="icon-circle purple"><i class="fas fa-map-marker-alt"></i></div>
+                <h3>Visit Us</h3>
+                <p>G-70, Lower Ground Floor<br>Office No. 001, Sector 63<br>Noida, UP 201301</p>
+                <p><small>GSTIN: 09AADCJ9672K1ZV</small></p>
+            </div>
+
+            <div class="footer-card">
+                <div class="icon-circle green"><i class="fas fa-clock"></i></div>
+                <h3>Business Hours</h3>
+                <p>Mon–Sat: <strong>9:00 AM – 6:00 PM</strong><br>Sunday: <span class="emergency">Emergency Only</span></p>
+                <p><small>24/7 Emergency Support</small></p>
+            </div>
+            </div>
+
+            <!-- FOOTER GRID -->
+            <div class="footer-grid">
+            <div class="footer-col">
+                <img src="./images/COMPANY LOGO.png" alt="Company Logo" class="footer-logo">
+                <p>Leading waterproofing and structural repair specialists in Pan India with 25+ years of experience.</p>
+                <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul>
+                <li>Terrace Waterproofing</li>
+                <li>Basement Waterproofing</li>
+                <li>Anti-Carbonation Coating</li>
+                <li>Structural Repair</li>
+                <li>Injection Grouting</li>
+                <li>Building Restoration</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p>J Kumar Build Tech Pvt. Ltd.<br>Sector 62, Noida<br>Uttar Pradesh - 201309</p>
+                <p>📞 +918860303034<br>📞 +919953760804</p>
+                <p><small>GSTIN: 09ABCDE1234F1Z5</small></p>
+            </div>
+            </div>
+
+            <!-- FOOTER BOTTOM -->
+            <div class="footer-bottom">
+            <p>&copy; 2025 J Kumar Build Tech Pvt. Ltd. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Sitemap</a>
+            </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- contact us Booking Modal -->
+    <div id="bookingModal" class="modal" >
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Free to CONTACT US</h2>
+            <div class="form-wrapper">
+                <form id="bookingForm">
+                    <div id="bookingForm" class="form-appear">
+                        <div class="form-group">
+                            <h3>📱 Call Us</h3>
+                            <p><strong>Piyush Singhal:</strong> <a href="tel:+918860303034" style="color: #333; text-decoration: none;">+91 8860303034</a></p>
+                            <p><strong>Manu Vaibhav:</strong> <a href="tel:+919953760804" style="color: #333; text-decoration: none;">+91 9953760804</a></p>
+                        </div>
+
+                        <div class="form-group">
+                            <h3>💬 WhatsApp</h3>
+                            <p><strong>Piyush Singhal:</strong> <a href="https://wa.me/918860303034?text=Hello%2C%20I%20am%20interested%20in%20your%20waterproofing%20services." target="_blank" style="color: #25D366; text-decoration: none;">Chat Now</a></p>
+                            <p><strong>Manu Vaibhav:</strong> <a href="https://wa.me/919953760804?text=Hello%2C%20I%20am%20interested%20in%20your%20waterproofing%20services." target="_blank" style="color: #25D366; text-decoration: none;">Chat Now</a></p>
+                        </div>
+
+                        <div class="form-group">
+                            <h3>📧 Email</h3>
+                            <p><strong>Piyush Singhal:</strong> <a href="mailto:piyush.singhal30@gmail.com" style="color: #333; text-decoration: none;">piyush.singhal30@gmail.com</a></p>
+                            <p><strong>Manu Vaibhav:</strong> <a href="mailto:jkumarbuildtech@gmail.com" style="color: #333; text-decoration: none;">jkumarbuildtech@gmail.com</a></p>
+                        </div>
+
+
+                        <div class="form-group">
+                            <h3>📍 Office Location</h3>
+                            <p><b>JKUMAR BUILDTECH PRIVATE LIMITED</b> G-70, Lower Ground Floor, Office No. 001, Sector 63, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301
+                            <br>GSTIN/UIN: 09AADCJ9672K1ZV
+                            <br>State Name: Uttar Pradesh, Code : 09</p>
+                            <a href="https://maps.google.com/?q=28.618757,77.389343" target="_blank" style="color: #25D366; text-decoration: none;">
+                            📌 View on Google Maps</a>
+                        </div>
+
+                    </div>
+                    <input type="submit" value="Close" class="submit-button" onclick="closeModal()">
+                </form>
+    
+            </div>
+        </div>
+    </div> 
+    
+    <script src="script.js"></script>
+    <script>
+        // Scroll to top on page load
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
+</body>
+</html>

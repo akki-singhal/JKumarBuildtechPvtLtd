@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Projects | JKumar Buildtech Pvt. Ltd.</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: aliceblue;
+      }
+
+
+      /* Full-width Project Section */
+      .project-section {
+        width: 100%;
+        padding: 40px 30px;
+        background-color: #fafafa;
+      }
+
+      .project-title {
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #222;
+        text-align: center;
+        border-bottom: 8px solid #f5d87c;
+        display: inline-block;
+        padding-bottom: 6px;
+      }
+
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 40px;
+        margin-top: 40px;
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .project-card {
+        border: 4px solid #e18504cb;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+      }
+
+      .project-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .project-card img {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+      }
+
+      .project-card h4 {
+        font-size: 1.1rem;
+        margin: 18px 18px 6px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .project-card p {
+        font-size: 0.95rem;
+        color: #555;
+        margin: 0 18px 18px;
+      }
+
+      @media (max-width: 600px) {
+        .project-title {
+          font-size: 1.6rem;
+        }
+
+        .project-card img {
+          height: 200px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <header id="navbar">
+       
+        <div class="container">
+            <a href="index.html">
+                <img src="./images/COMPANY LOGO.png" alt="Company Logo" class="company-logo">
+            </a>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- <p class="company-name">JKumar Buildtech Pvt. Ltd.</p> -->
+            <!-- Hamburger Icon -->
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <!-- WhatsApp Button -->
+                    <button class="contact-us-button cta-button" onclick="bookService()">Contact Us</button>
+
+                </ul>
+            </nav>
+        </div>
+    </header> 
+            
+      <!-- Project Section -->
+    <section class="project-section">
+      <h2 class="project-title">OUR PROJECTS</h2>
+
+      <div class="project-grid">
+
+  
+        
+        <!-- 1 -->
+        <div class="project-card">
+          <img src="./images/Project/signature-bridge.webp" alt="Signature Bridge, New Delhi">
+        <p>___________________________________</p>
+          <h4>Signature Bridge, New Delhi</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+        
+        <!-- 2 -->
+        <div class="project-card">
+          <img src="./images/Project/Project-omaxe-royal-residency.jpg" alt="Omaxe Royal Residency">
+        <p>___________________________________</p>
+          <h4>Omaxe Royal Residency</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 3 -->
+        
+        <div class="project-card">
+          <img src="./images/Project/aishwaryam.webp" alt="Aishwaryam">
+        <p>___________________________________</p>
+          <h4>Aishwaryam</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 4 -->
+        
+        <div class="project-card">
+          <img src="./images/Project/hindon-elevated-road.jpg" alt="Hindon Elevated Road">
+        <p>___________________________________</p>
+          <h4>Hindon Elevated Road </h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+        
+        <!-- 5 -->
+        <div class="project-card">
+          <img src="./images/Project/Project-omaxe-waterescape.jpg" alt="omaxe Waterscapes, Lucknow">
+        <p>___________________________________</p>
+          <h4>omaxe Waterscapes, Lucknow</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+        
+        <!-- 6 -->
+        <div class="project-card">
+          <img src="./images/Project/supertech_supernova.avif" alt="Supertech Supernova">
+        <p>___________________________________</p>
+          <h4>Supertech Supernova</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+        
+        <!-- 7 -->
+        <div class="project-card">
+          <img src="./images/Project/delhi-meerut-expressway.jpg" alt="Delhi Meerut Expressway">
+        <p>___________________________________</p>
+          <h4>Delhi Meerut Expressway</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 8 -->
+        <div class="project-card">
+          <img src="./images/Project/Project-omaxe-intt.jpg" alt="omaxe The Trade Tower">
+        <p>___________________________________</p>
+          <h4>omaxe The Trade Tower</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+
+        <!-- 9 -->
+        <div class="project-card">
+          <img src="./images/Project/pks-mall.jpg" alt="PKS Mall">
+        <p>___________________________________</p>
+          <h4>PKS Mall</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 10 -->
+        
+        <div class="project-card">
+          <img src="./images/Project/hpcl-rajashthan-refinery.jpg" alt="HPCL Rajasthan Refinery">
+        <p>___________________________________</p>
+          <h4>HPCL Rajasthan Refinery</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 11 -->
+        <div class="project-card">
+          <img src="./images/Project/Project-omex-royal-meridien.jpg" alt="omaxe Royal Meridien">
+        <p>___________________________________</p>
+          <h4>omaxe Royal Meridien</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 12 -->
+        <div class="project-card">
+          <img src="./images/Project/PURANIK-ABHITANTE-FIORE.webp" alt="Puranik Abhitante Fiore">
+        <p>___________________________________</p>
+          <h4>Puranik Abhitante Fiore</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 13 -->
+        <div class="project-card">
+          <img src="./images/Project/Nagpur-Metro.webp" alt="Nagpur Metro">
+        <p>___________________________________</p>
+          <h4>Nagpur Metro</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 14 -->
+        <div class="project-card">
+          <img src="./images/Project/Project-omaxe-the-lake.jpg" alt="omaxe The Lake">
+        <p>___________________________________</p>
+          <h4>omaxe The Lake</h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+        
+        <!-- 15 -->
+        <div class="project-card">
+          <img src="" alt="">
+        <p>___________________________________</p>
+          <h4></h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 16 -->
+        <div class="project-card">
+          <img src="" alt="">
+        <p>___________________________________</p>
+          <h4></h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 17 -->
+        <div class="project-card">
+          <img src="" alt="">
+        <p>___________________________________</p>
+          <h4></h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 18 -->
+        <div class="project-card">
+          <img src="" alt="">
+        <p>___________________________________</p>
+          <h4></h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 19 -->
+        <div class="project-card">
+          <img src="" alt="">
+        <p>___________________________________</p>
+          <h4></h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 20 -->
+        <div class="project-card">
+          <img src="" alt="">
+        <p>___________________________________</p>
+          <h4></h4>
+          <p>Waterproofing Work of Substructure</p>
+        </div>
+
+        <!-- 21 -->
+        <div class="project-card">
+          <img src="" alt="">
+        <p>___________________________________</p>
+          <h4></h4>
+          <p>Waterproofing Work of Substructure</p>
+
+
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+      <!-- contact us Booking Modal -->
+      <div id="bookingModal" class="modal" >
+          <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <h2>Free to CONTACT US</h2>
+              <div class="form-wrapper">
+                  <form id="bookingForm">
+                      <div id="bookingForm" class="form-appear">
+                          <div class="form-group">
+                              <h3>📱 Call Us</h3>
+                              <p><strong>Piyush Singhal:</strong> <a href="tel:+918860303034" style="color: #333; text-decoration: none;">+91 8860303034</a></p>
+                              <p><strong>Manu Vaibhav:</strong> <a href="tel:+919953760804" style="color: #333; text-decoration: none;">+91 9953760804</a></p>
+                          </div>
+
+                          <div class="form-group">
+                              <h3>💬 WhatsApp</h3>
+                              <p><strong>Piyush Singhal:</strong> <a href="https://wa.me/918860303034?text=Hello%2C%20I%20am%20interested%20in%20your%20waterproofing%20services." target="_blank" style="color: #25D366; text-decoration: none;">Chat Now</a></p>
+                              <p><strong>Manu Vaibhav:</strong> <a href="https://wa.me/919953760804?text=Hello%2C%20I%20am%20interested%20in%20your%20waterproofing%20services." target="_blank" style="color: #25D366; text-decoration: none;">Chat Now</a></p>
+                          </div>
+
+                          <div class="form-group">
+                              <h3>📧 Email</h3>
+                              <p><strong>Piyush Singhal:</strong> <a href="mailto:piyush.singhal30@gmail.com" style="color: #333; text-decoration: none;">piyush.singhal30@gmail.com</a></p>
+                              <p><strong>Manu Vaibhav:</strong> <a href="mailto:jkumarbuildtech@gmail.com" style="color: #333; text-decoration: none;">jkumarbuildtech@gmail.com</a></p>
+                          </div>
+
+
+                          <div class="form-group">
+                              <h3>📍 Office Location</h3>
+                              <p><b>JKUMAR BUILDTECH PRIVATE LIMITED</b> G-70, Lower Ground Floor, Office No. 001, Sector 63, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301
+                              <br>GSTIN/UIN: 09AADCJ9672K1ZV
+                              <br>State Name: Uttar Pradesh, Code : 09</p>
+                              <a href="https://maps.google.com/?q=28.618757,77.389343" target="_blank" style="color: #25D366; text-decoration: none;">
+                              📌 View on Google Maps</a>
+                          </div>
+
+                      </div>
+                      <input type="submit" value="Close" class="submit-button" onclick="closeModal()">
+                  </form>
+      
+              </div>
+          </div>
+      </div> 
+
+    <script src="script.js"></script>
+    <script>
+        // Scroll to top on page load
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
+</body>
+</html>
